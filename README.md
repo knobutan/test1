@@ -6,6 +6,7 @@ Prerequisites:
 - API key that can store CR
 
 Understanding how CE works.
+
 Step 1. Create a Dockerfile. An definition of docker image to deploy on CE.
 In this git, I do already have a SpringBoot app in jar. Dockerfile in this demo is super simple, it just runs the jar.
 FROM openjdk:11-jdk-slim
